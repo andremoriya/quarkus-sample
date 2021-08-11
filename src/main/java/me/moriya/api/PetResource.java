@@ -25,6 +25,9 @@ import me.moriya.domain.model.dto.PetDTO;
 @Consumes("application/json")
 public class PetResource {
     
+    /**
+        Teste
+     */
     @GET
     public Multi<Pet> pets() {
         return Pet.<Pet>streamAll();
